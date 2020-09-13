@@ -1,0 +1,42 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.employees {
+  display: flex;
+
+  &__list {
+    width: 800px;
+  }
+
+  &__header,
+  &__item {
+    display: flex;
+  }
+
+  &__header,
+  &__item {
+    margin-bottom: 20px;
+  }
+
+  &__item {
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+  }
+
+  &__header div,
+  &__field {
+    width: 200px;
+  }
+
+  &__header span {
+    font-weight: bold;
+  }
+
+  &__form {
+    margin-left: 20px;
+  }
+}

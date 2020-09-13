@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "vibor-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/vibor/ViborWebPart.js",
+          "manifest": "./src/webparts/vibor/ViborWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ViborWebPartStrings": "lib/webparts/vibor/loc/{locale}.js"
+  }
+}
